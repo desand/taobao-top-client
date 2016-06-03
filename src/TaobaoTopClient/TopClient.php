@@ -267,7 +267,7 @@ class TopClient
 
 	public function get($name)
 	{
-		include 'request/' . $name . '.php';
+		include_once 'request/' . $name . '.php';
 		return new $name();
 	}
 
