@@ -32,15 +32,15 @@ class TaobaoTaeItemDetailGetRequest
 		return $this->id;
 	}
 
-	public function setName($name)
+	public function setFields($fields)
 	{
-		$this->name = $name;
-		$this->apiParas["name"] = $name;
+		$this->fields = $fields;
+		$this->apiParas["fields"] = $fields;
 	}
 
-	public function getName()
+	public function getFields()
 	{
-		return $this->name;
+		return $this->fields;
 	}
 
 	public function getApiMethodName()
