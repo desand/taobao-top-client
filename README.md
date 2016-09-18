@@ -9,7 +9,7 @@ TaobaoTopClient
 
     "require": {
         ...
-        "elvis-bi/taobao-top-client": "*"
+        "desand/taobao-top-client": "*"
         ...
     }
     
